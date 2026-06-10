@@ -2,9 +2,9 @@
     "spec": 2,
     "metadata": {
         "name": "草方块",
-        "tips": "对，草方块。\n凭什么方块就不能做主角啦！？\n[模型版本 v0.0.0]",
+        "tips": "对，草方块。\n凭什么方块就不能做主角啦！？\n[模型版本 v0.0.1]",
         "license": {
-            "type": "CC0 1.0 Universal",
+            "type": "CC 0 1.0 Universal",
             "desc": "爱干嘛干嘛"
         },
         "authors": [
@@ -65,7 +65,8 @@
             },
             "animation_controllers": [],
             "texture": [
-                {"uv": "textures/earth.png"}
+                {"uv": "textures/earth.png"},
+                {"uv": "textures/computer.png"}
             ]
         }
     }

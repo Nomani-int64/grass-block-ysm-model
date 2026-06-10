@@ -307,8 +307,13 @@
 					"pivot": [0, 6, 0]
 				},
 				{
-					"name": "LeftLeg",
+					"name": "LeftLegAA",
 					"parent": "DownBody",
+					"pivot": [0, 6, 0]
+				},
+				{
+					"name": "LeftLeg",
+					"parent": "LeftLegAA",
 					"pivot": [4, 7, 0],
 					"cubes": [
 						{"origin": [2, 2, -2], "size": [4, 6, 4], "uv": [32, 100]},
@@ -350,8 +355,13 @@
 					]
 				},
 				{
-					"name": "RightLeg",
+					"name": "RightLegAA",
 					"parent": "DownBody",
+					"pivot": [0, 6, 0]
+				},
+				{
+					"name": "RightLeg",
+					"parent": "RightLegAA",
 					"pivot": [-4, 7, 0],
 					"cubes": [
 						{"origin": [-6, 2, -2], "size": [4, 6, 4], "uv": [16, 100]},
